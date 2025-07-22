@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  font-family: 'Poppins', sans-serif !important;
+}
+.navbar-brand{
+  color: rgb(40, 106, 205) !important;
+}
+.footer
+{
+  background-color: rgb(87, 85, 85);
+  font-weight: bold;
+}
+.qrcode{
+  height:65vh;
+}
+.intro{
+  height:80vh;
+}
+.highlight{
+  color:#3831c9 !important;
+  text-decoration: underline;
+  
+}
+.codepreview{
+  width: '500px' ;
+  height: '500px';
+ 
+   
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #6c63ff, #4e54c8);
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #4e54c8, #3f3d56);
+}
