@@ -22,16 +22,17 @@ function QRCodeGenerator() {
   };
 
   return (
-    <section className='qrcode mt-5' id="qrcode">
-      <div className="container py-5">
+    <section className='qrcode ' >
+      <div className="container py-2">
         <div className="row justify-content-center">
           <div className="col-md-6 text-center">
-            <h4 className='pb-2'>Enter your website text or URL</h4>
+            <h4 className='pb-2 pt-2'>Enter your website text or URL</h4>
 
             <input
               type="text"
               className="form-control mb-4"
               placeholder="Enter text or URL"
+              name="qrText"  
               value={text}
               onChange={(e) => setText(e.target.value)}
             />

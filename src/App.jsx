@@ -1,20 +1,20 @@
-import Footer from "./Components/footer"
-import Header from "./Components/header"
-import Intro from "./Components/intro"
+import Footer from "./Components/Footer"
+import Header from "./Components/Header"
+import Intro from "./Components/Intro"
 import QRCodeGenerator from "./Components/QRCodeGenerator"
 
 
 function App() {
- 
+
   return (
     <>
-    <Header/>
-    <Intro/>
-    <QRCodeGenerator/>
-    <Footer/>
-    
-    
-      
+      <Header />
+      <Intro />
+      <QRCodeGenerator />
+      <Footer />
+
+
+
     </>
   )
 }

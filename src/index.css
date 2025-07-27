@@ -15,9 +15,7 @@ body{
 .qrcode{
   height:65vh;
 }
-.intro{
-  height:80vh;
-}
+
 .highlight{
   color:#3831c9 !important;
   text-decoration: underline;
